@@ -3,6 +3,7 @@ body,
 header,
 .view {
   height: 100%;
+  font-family: Georgia;
 }
 
 @media (max-width: 740px) {
