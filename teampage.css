@@ -1,15 +1,15 @@
-body{
+body {
     background-color: rgb(0, 102, 128);
 }
 
-#ourTeam{
+#ourTeam {
     color: black;
     text-align: center;
     font-family: Georgia;
     font-weight: 400 !important;
 }
 
-.container-sm{
+.container-sm {
     width: 100%;
     height: auto;
     padding: 40px;
@@ -19,32 +19,31 @@ body{
     top: 115%;
     left: 50%;
     text-align: center;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-img{
+img {
     width: 300px;
     height: 320px;
-    border: 2px solid inherit;
+    border: 1px solid inherit;
 }
 
-.figure{
+.figure {
     border: 1px black;
     padding: 20px;
     position: relative;
     background: inherit;
-
 }
 
-.figure:hover{
-    transition: 0.25s;
-    border: 2px solid black;
+.figure:hover {
+    transition: 0.15s;
+    border: 1px solid black;
     border-radius: 20px;
     background-color: inherit;
     /* cursor: pointer; */
 }
 
-.figure-caption{
+.figure-caption {
     background-color: inherit;
     color: black !important;
     font-family: Georgia;
@@ -53,7 +52,7 @@ img{
     display: block;
 }
 
-.post{
+.post {
     color: rgb(242, 161, 115) !important;
     background-color: inherit;
     font-family: Georgia;
@@ -62,25 +61,23 @@ img{
     display: block;
 }
 
-/* #first3{
-    top: 25%;
+.navbar {
+    font-family: Georgia;
 }
 
-#second3{
-    top: 50%;
-} */
-
-/* #sampletxt1{
-    top: 400px;
-    text-align: left;
+.top-nav-collapse {
+    background-color: #ffffff
 }
 
-#sampletxt2{
-    top: 400px;
-    text-align: center;
+.navbar:not(.top-nav-collapse) {
+    /* background: transparent !important; */
+    position: fixed;
+    width: 100%;
+    background-color: black;
 }
 
-#sampletxt3{
-    top: 400px;
-    text-align: right;
-} */
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    }
+}
