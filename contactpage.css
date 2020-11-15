@@ -42,7 +42,6 @@ h1{
     border-color: darkgray;
 }
 .box input[type="submit"]{
-    border: 0;
     background: none;
     display: block;
     margin: 20px auto;
