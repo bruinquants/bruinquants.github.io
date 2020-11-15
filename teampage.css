@@ -61,8 +61,26 @@ img {
     display: block;
 }
 
-.navbar-brand {
+.navbar {
     font-family: Georgia;
+}
+
+.top-nav-collapse {
+    background-color: #ffffff
+}
+
+.navbar:not(.top-nav-collapse) {
+    /* background: transparent !important; */
+    position: fixed;
+    width: fit-content;
+    background-color: black;
+    padding-left: 100px;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    }
 }
 
 
