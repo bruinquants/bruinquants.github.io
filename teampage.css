@@ -72,9 +72,8 @@ img {
 .navbar:not(.top-nav-collapse) {
     /* background: transparent !important; */
     position: fixed;
-    width: fit-content;
+    width: 100%;
     background-color: black;
-    padding-left: 100px;
 }
 
 @media (max-width: 991px) {
