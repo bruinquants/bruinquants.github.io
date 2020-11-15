@@ -2,66 +2,68 @@ html,
 body,
 header,
 .view {
-  height: 100%;
-  font-family: Georgia;
+    height: 100%;
+    font-family: Georgia;
 }
 
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 1000px;
-  }
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
 }
+
 @media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
+    html,
+    body,
+    header,
+    .view {
+        height: 600px;
+    }
 }
 
 .btn .fa {
-  margin-left: 3px;
+    margin-left: 3px;
 }
 
 .top-nav-collapse {
-  background-color: #424f95 !important;
+    background-color: #ffffff !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 @media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #424f95 !important;
-  }
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    }
 }
 
 .btn-white {
-  color: white !important;
+    color: white !important;
 }
 
-.btn-outline-white{
+.btn-outline-white {
     color: white;
 }
 
-h1{
-    color:white;
+h1 {
+    color: white;
 }
 
 h6 {
-  line-height: 1.7;
-  color: white;
+    line-height: 1.7;
+    color: white;
 }
 
+
 /* .rgba-gradient {
-  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: -webkit-gradient(linear 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 } */
