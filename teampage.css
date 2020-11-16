@@ -5,7 +5,7 @@ body {
 #ourTeam {
     color: black;
     text-align: center;
-    font-family: Georgia;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 400 !important;
 }
 
@@ -45,7 +45,7 @@ img {
 .figure-caption {
     background-color: inherit;
     color: black !important;
-    font-family: Georgia;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20px !important;
     text-align: center;
     display: block;
@@ -54,14 +54,14 @@ img {
 .post {
     color: rgb(242, 161, 115) !important;
     background-color: inherit;
-    font-family: Georgia;
+    font-family: "Times New Roman", Times, serif;
     font-size: 17px !important;
     text-align: center;
     display: block;
 }
 
 .navbar {
-    font-family: Georgia;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .top-nav-collapse {
@@ -77,6 +77,6 @@ img {
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #424f95 !important;
+        background: #ffffff !important;
     }
 }
