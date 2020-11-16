@@ -94,8 +94,9 @@ h6 {
     color: black;
 }
 
+
 .btn-outline-white:hover{
-    background-color: inherit;
+    background-color: inherit !important;
     color: white;
 }
 
