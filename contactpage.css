@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia;
+    font-family: "Times New Roman", Times, serif;
     background-color: rgb(0, 102, 128);
 }
 
@@ -19,7 +19,7 @@ body {
 h1 {
     color: white;
     text-transform: uppercase;
-    font-weight: inherit;
+    font-weight: 400;
 }
 
 .box input[type="email"],
