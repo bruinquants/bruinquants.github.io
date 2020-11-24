@@ -3,7 +3,7 @@ body,
 header,
 .view {
     height: 100%;
-     font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 @media (max-width: 740px) {
@@ -62,7 +62,7 @@ h6 {
 }
 
 .bottom {
-    font-size: medium;
+    font-size: large;
     width: fit-content;
     padding: 30px;
 }
@@ -76,7 +76,11 @@ h6 {
     width: auto;
     padding-left: 20%;
     padding-right: 20%;
-    text-align: block;
+    text-align: center;
+}
+
+.email {
+    text-align: center;
 }
 
 .links {
@@ -94,7 +98,7 @@ h6 {
     color: black;
 }
 
-.btn-outline-white:hover{
+.btn-outline-white:hover {
     background-color: inherit;
     color: white;
 }
