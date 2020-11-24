@@ -3,7 +3,16 @@ body {
     background-color: rgb(0, 102, 128);
 }
 
-.box {
+html,
+body,
+header,
+.view {
+    /* height: 100%; */
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* .box {
     width: 650px;
     height: 600px;
     padding: 40px;
@@ -14,7 +23,7 @@ body {
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-}
+} */
 
 h1 {
     color: white;
@@ -22,6 +31,8 @@ h1 {
     font-weight: 400;
 }
 
+
+/* 
 .box input[type="email"],
 .box input[type="text"] {
     border: 0;
@@ -36,14 +47,17 @@ h1 {
     color: white;
     border-radius: 24px;
     transition: 0.50s;
-}
+} */
 
-.box input[type="email"]:focus,
+
+/* .box input[type="email"]:focus,
 .box input[type="text"]:focus {
     width: 280px;
     border-color: darkgray;
-}
+} */
 
+
+/* 
 .box input[type="submit"] {
     background: none;
     display: block;
@@ -56,16 +70,18 @@ h1 {
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
-}
+} */
 
-.box input[type="submit"]:hover {
+
+/* .box input[type="submit"]:hover {
     background: darkgreen;
-}
+} */
 
-textarea {
+
+/* textarea {
     resize: horizontal;
     max-width: 550px;
-}
+} */
 
 .info {
     margin-top: 10%;
@@ -81,4 +97,9 @@ textarea {
     .navbar:not(.top-nav-collapse) {
         background: #424f95 !important;
     }
+}
+
+.contactus {
+    text-align: center;
+    padding-top: 10%;
 }
