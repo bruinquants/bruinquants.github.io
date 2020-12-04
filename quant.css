@@ -30,18 +30,19 @@ header,
 
 .top-nav-collapse {
     background-color: #000000 !important;
-    margin-bottom: 50px !important;
 }
 
 .navbar:not(.top-nav-collapse) {
     /* background: transparent !important; */
     position: fixed;
     background-color: black;
+    margin-bottom: 50px !important;
 }
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
         background: #000000 !important;
+        margin-bottom: 50px !important;
     }
 }
 
