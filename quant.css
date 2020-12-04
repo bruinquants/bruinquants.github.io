@@ -28,6 +28,11 @@ header,
     margin-left: 3px;
 }
 
+
+.navbar {
+    margin-bottom: 50px !important;
+}
+
 .top-nav-collapse {
     background-color: #000000 !important;
 }
@@ -36,13 +41,11 @@ header,
     /* background: transparent !important; */
     position: fixed;
     background-color: black;
-    margin-bottom: 50px !important;
 }
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
         background: #000000 !important;
-        margin-bottom: 50px !important;
     }
 }
 
