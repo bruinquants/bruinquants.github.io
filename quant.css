@@ -30,6 +30,7 @@ header,
 
 .top-nav-collapse {
     background-color: #000000 !important;
+    margin-bottom: 50px !important;
 }
 
 .navbar:not(.top-nav-collapse) {
