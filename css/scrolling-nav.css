@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+@@font-face {
+  font-family: "oneday";
+  src: url(fonts/oneday.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+body {
+  padding-top: 50px;
+}
+
+.about {
+    font-family: "Times New Roman", Times, serif;
+ }
+.bg-light{
+    font-family: "Times New Roman", Times, serif;
+}
+.contact{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.email{
+  font-size: 15px;
+}
+
+.navbar {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: : white !important;
+  background: black !important;
+}
+.navbar-nav{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.containerTop{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 0px;
+}
+
+header {
+  padding: 150px 0;
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+.links {
+    font-size: 50px;
+    text-align: center;
+}
+
+.py-5 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+
+
+.marketing .col-lg-4 {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 5vh;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
