@@ -83,7 +83,7 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="col-lg-6">
                     <h2>Contact us</h2>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                     <div class="links">
@@ -94,10 +94,10 @@
                         <a href="https://www.linkedin.com/in/bruin-quants/" class="fa fa-linkedin-square"></a>
                         <a href="https://github.com/bruinquants?tab=repositories" class="fa fa-github-square"></a>
                     </div>
-
-                    <h2>Join our email list</h2>
-
+                </div>
+                    <div class="col-lg-6">
                     <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSfr2kwVa0gnPHjIPTnG2mGFejQ7GUHnm0DrgfUmu6ya7I562Q/formResponse?">
+                      <h2>Join our email list</h2>
                       <div class="form-row">
                         <div class="col-lg-4 mx-auto">
                       <label for="entry.2005620554">Name*</label>
@@ -113,6 +113,7 @@
                       <br>
                       <input type="submit" name="" value="Submit">
                     </form>
+                  </div>
 
                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
                     onload="if(submitted) {}"></iframe>
@@ -124,9 +125,6 @@
                         $('#gform').append('Submission successful. Thank you.');
                       });
                     </script>
-                    
-                    
-                    
                 </div>
             </div>
     </section>
