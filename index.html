@@ -94,7 +94,39 @@
                         <a href="https://www.linkedin.com/in/bruin-quants/" class="fa fa-linkedin-square"></a>
                         <a href="https://github.com/bruinquants?tab=repositories" class="fa fa-github-square"></a>
                     </div>
-                    <a href="https://forms.gle/g222UZATof5z5FGe8" target="_blank">Join our email list</a>
+
+                    <h2>Join our email list</h2>
+
+                    <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSfr2kwVa0gnPHjIPTnG2mGFejQ7GUHnm0DrgfUmu6ya7I562Q/formResponse?">
+                      <div class="form-row">
+                        <div class="col-lg-4 mx-auto">
+                      <label for="entry.2005620554">Name*</label>
+                      <input type="text" class="form-control" placeholder="" name="entry.2005620554" id="entry.2005620554" required>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col-lg-4 mx-auto">
+                      <label for="entry.1045781291">Email Address*</label>
+                      <input type="email" class="form-control" placeholder="" name="entry.1045781291" id="entry.1045781291" required>
+                        </div>
+                      </div>
+                      <br>
+                      <input type="submit" name="" value="Submit">
+                    </form>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted) {}"></iframe>
+                    <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <script type="text/javascript">
+                      $('#gform').on('submit', function(e){
+                        $('#gform *').fadeOut(500);
+                        $('#gform').append('Submission successful. Thank you.');
+                      });
+                    </script>
+                    
+                    
+                    
                 </div>
             </div>
     </section>
